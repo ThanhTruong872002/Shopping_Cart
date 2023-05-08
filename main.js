@@ -105,7 +105,6 @@ function addProductToCart(title, price, productImg) {
       return;
     } else {
       alert("Thêm vào giỏ hàng thành công");
-      return;
     }
   }
   var cartBoxContent = `
