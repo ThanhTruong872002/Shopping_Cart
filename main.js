@@ -103,6 +103,8 @@ function addProductToCart(title, price, productImg) {
     if (cartItemsNames[i].innerText == title) {
       alert("Bạn đã thêm vật phậm này vào giỏ hàng");
       return;
+    } else {
+      alert("Thêm vào giỏ hàng thành công");
     }
   }
   var cartBoxContent = `
